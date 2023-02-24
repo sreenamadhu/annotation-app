@@ -9,7 +9,7 @@ from datetime import datetime
 print(datetime.now())
 import shutil
 
-INPUT_DIR = '/media/Zeus/magesh/test_store_crops/'
+INPUT_DIR = 'test_store_crops/'
 NOTFIXED_DIR = 'notfixed_2/'
 FIXED_DIR = 'fixed_2/'
 INVALID_DIR = 'invalid_2/'
@@ -31,7 +31,7 @@ def product_recognition(input_img_num, state):
     input_img_path = INPUT_DIR + mapping[str(input_img_num)]
     res = results[input_img_path]
     # out = [(np.asarray(Image.open(os.path.join('/home/interns2022/prodid_endpoint/',res["top"]))),res["score"])]
-    return np.asarray(Image.open(os.path.join('/home/interns2022/prodid_endpoint/',res["top"])))
+    return np.asarray(Image.open(os.path.join('prodid_endpoint/',res["top"])))
 
 
 def display_img(input_img_num):
