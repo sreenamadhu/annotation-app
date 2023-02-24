@@ -1,4 +1,4 @@
-# Annotation-App
+
 Annotation application using Gradio framework
 
 Screenshot for demo_verify_enrollment.py:
