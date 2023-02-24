@@ -138,6 +138,6 @@ with gr.Blocks() as demo:
     fixed.click(fixed_enrollment, input_num, None)
     notfixed.click(notfixed_enrollment, input_num, None)
     invalid.click(invalid_enrollment, input_num, None)
-demo.launch(server_name = "128.2.24.66", server_port = 8080)
+demo.launch(server_name = "localhost", server_port = 8000)
 
 
